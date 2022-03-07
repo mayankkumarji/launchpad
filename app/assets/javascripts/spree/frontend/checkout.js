@@ -2,6 +2,7 @@
 //= require spree/frontend/checkout/address
 //= require spree/frontend/checkout/payment
 
+
 Solidus.disableSaveOnClick = () => {
   const form = document.querySelector('form.edit_order');
   form.addEventListener('submit', () => {
